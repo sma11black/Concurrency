@@ -11,6 +11,10 @@ cmake_minimum_required (VERSION 3.8)
 # add_executable (Concurrency "Introduction and Running Threads/lambdaFunction.cpp")
 # add_executable (Concurrency "Introduction and Running Threads/startingAThreadWithFunctionObjects.cpp")
 # add_executable (Concurrency "Introduction and Running Threads/startingAThreadWithVariadicTemplatesAndMemberFunctions.cpp")
-add_executable (Concurrency "Introduction and Running Threads/runningMultipleThreads.cpp")
+# add_executable (Concurrency "Introduction and Running Threads/runningMultipleThreads.cpp")
+
+# add_executable (Concurrency "Passing Data Between Threads/promisesAndFuture.cpp")
+# add_executable (Concurrency "Passing Data Between Threads/threadsVsTasks.cpp")
+add_executable (Concurrency "Passing Data Between Threads/avoidingDataRaces.cpp")
 
 # TODO: Add tests and install targets if needed.
